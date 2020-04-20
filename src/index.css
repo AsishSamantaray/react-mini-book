@@ -9,6 +9,7 @@ body {
   background: #fff;
   border: 1px solid black;
   border-radius: 5px;
+  text-align: center;
 }
 h1 {
   color: blue;
@@ -16,7 +17,7 @@ h1 {
 @media screen and (min-width: 768px) {
   .books {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
   }
 }
